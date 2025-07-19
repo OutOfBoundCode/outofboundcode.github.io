@@ -2,137 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="OutOfBoundCode is a platform that teaches codeing">
-  <title>Out of Bound Code</title>
+  <title>OutOfBoundCode - Home</title>
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.6;
+      background: #f8f8f8;
+      color: #333;
     }
-
-    header {
-      background-color: #1e293b;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #94a3b8;
-    }
-
     nav {
+      background: #222;
+      padding: 1em;
       text-align: center;
-      margin-top: 1rem;
     }
-
     nav a {
-      color: #60a5fa;
+      color: white;
       text-decoration: none;
-      margin: 0 1rem;
+      margin: 0 1em;
       font-weight: bold;
     }
-
+    nav a:hover {
+      color: #ffcc00;
+    }
     main {
       max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      margin: 2em auto;
+      padding: 2em;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      border-bottom: 2px solid #334155;
-      padding-bottom: 0.5rem;
-      color: #f1f5f9;
-    }
-
-    footer {
-      background-color: #1e293b;
+    h1 {
       text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #94a3b8;
+      color: #444;
     }
-
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background-color: #3b82f6;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
+    p {
+      line-height: 1.6;
     }
-
-    a.button:hover {
-      background-color: #2563eb;
+    .intro {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
+      margin-top: 3em;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Out of Bound Code</h1>
-    <p>Exploring tech, coding, and ideas beyond the edge.</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#articles">Articles</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="articles.html">Articles</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+  </nav>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hey! I'm a developer and tech enthusiast who loves to build things, break things (on purpose), and write about what I learn along the way. This site is a space to share my experiments, tutorials, and thoughts on software engineering.</p>
-    </section>
+    <h1>Welcome to OutOfBoundCode</h1>
+    <div class="intro">
+      <p>Hi, I'm <strong>[Your Name]</strong> — a student and embedded systems enthusiast.</p>
+      <p>This site, <strong>OutOfBoundCode</strong>, is my digital lab where I build, break, and learn about low-level code, systems, and embedded tech.</p>
+    </div>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>DevTracker:</strong> A simple task tracker for developers. Built with HTML, CSS, and JavaScript.</li>
-        <li><strong>AI-Notes:</strong> A lightweight Markdown notebook with AI text summarization.</li>
-        <li><strong>CodeCraft:</strong> A personal framework for rapid web prototyping.</li>
-      </ul>
-    </section>
-
-    <section id="articles">
-      <h2>Articles</h2>
-      <ul>
-        <li><strong>Understanding "Out of Bounds" Errors:</strong> Why they happen and how to prevent them.</li>
-        <li><strong>How I Built This Website with GitHub Pages:</strong> No frameworks, no stress.</li>
-        <li><strong>Why You Should Start a Dev Blog Today:</strong> The power of writing your learning journey.</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>You can reach me on:</p>
-      <ul>
-        <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-        <li>GitHub: <a href="https://github.com/OutOfBoundCode" target="_blank">OutOfBoundCode</a></li>
-        <li>YouTube: <a href="#" target="_blank">Coming Soon</a></li>
-      </ul>
-    </section>
-
-    <a class="button" href="https://github.com/OutOfBoundCode/outofboundcode.github.io" target="_blank">View on GitHub</a>
+    <p>📘 Explore my <a href="articles.html">articles</a> to dive into concepts I'm learning or breaking down.</p>
+    <p>🧪 Visit <a href="projects.html">projects</a> to see real systems I’ve implemented — from scratch.</p>
+    <p>🙋‍♂️ Learn more <a href="about.html">about me</a> or reach out to connect.</p>
   </main>
 
   <footer>
-    © 2025 Out of Bound Code — Built with HTML and GitHub Pages
+    © 2025 OutOfBoundCode — Built by [Your Name]
   </footer>
-
 </body>
 </html>
