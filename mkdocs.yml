@@ -1,8 +1,0 @@
-site_name: OutOfBoundCode
-site_url: https://outofboundcode.github.io/
-theme:
-  name: material
-  palette: 
-    scheme: slate
-    primary: indigo
-    accent: blue
